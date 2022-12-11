@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 5px;
+}
+.cell {
+    color: white;
+    font-weight: bolder;
+    font-size:x-large;
+    text-align: center;
+    padding: 20px;
+}
+
